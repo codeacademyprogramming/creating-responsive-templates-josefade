@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.header{
+    width: 100%;
+    position:relative;
+}
+.header-img{
+    width: 100%;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 145px;
+    color: white;
+    font-size: large;
+    letter-spacing: 5px;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-info h3{
+    font-weight: 400;
+}
+
+.header-info h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.list{
+    width: max-content;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a {
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+}
+
+.list-home{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.list-contact{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul li a:hover{
+    background-color: #ccc!important;
+}
+
+.imgs-section{
+    width: 80%;
+    height: 75%;
+    margin: 0 auto;
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 15px;
+    margin-top: 15px;     
+ 
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:80%;
+    height: 75%;
+    margin: 0 auto;
+
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    padding: 30px 20px;
+}
+
+.contact h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.contact p{
+    font-size: 19px;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.form .button{
+    background-color: #616161;
+    color: white;
+    font-size: 17px;
+}
+
+.button:hover{
+    background-color:#d4cfcf;
+    color: black;
+}
